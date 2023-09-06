@@ -38,4 +38,12 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+    		<repository>
+      			<id>github</id>
+      			<name>GitHub Packages</name>
+      			<url>https://maven.pkg.github.com/keshavram-roomie/library</url>
+    		</repository>
+  	</distributionManagement>
+
 </project>
